@@ -1,6 +1,8 @@
 import Header from "../../components/Header";
 import About from "./About";
+import Contact from "./Contact";
 import Experiences from "./Experiences";
+import Footer from "./Footer";
 import Intro from "./Intro";
 import Projects from "./Projects";
 
@@ -14,6 +16,8 @@ const Home = () => {
                     <About />
                     <Experiences />
                     <Projects />
+                    <Contact />
+                    <Footer />
                 </div>
             </div>
         </>

@@ -33,9 +33,9 @@ const Projects = () => {
                     <h1 className="text-white">
                         {projects[selectedItem].desc}
                     </h1>
-                    <h1 className="text-secondary">
+                    <h3 className="text-secondary text-sm">
                         Technology Used: {projects[selectedItem].tech}
-                    </h1>
+                    </h3>
                 </div>
             </div>
             ;

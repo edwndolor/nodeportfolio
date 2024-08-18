@@ -23,15 +23,18 @@ const About = () => {
                 </div>
                 <div className="flex flex-col gap-5 w-1/2 sm:w-full">
                     <p className="text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloremque, consequatur!
+                        Hello, I'm Edwin Dolor, a software developer based in
+                        The Philippines. With 6 years of experience in web
+                        development using PHP nad Javascript.
                     </p>
                     <p className="text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Provident alias ipsam repellendus maxime in distinctio
-                        quas aliquid? Quisquam, ex tempora accusamus labore quis
-                        tenetur dolorum et beatae repudiandae optio rem!
+                        I believe in the importance of lifelong learning and am
+                        dedicated to continually updating my web development
+                        skills and knowledge to remain competitive and deliver
+                        exceptional results. In my free time, I enjoy having a
+                        walk, riding my bicycle or playing DOTA with my friends.
                     </p>
+                    <p className="text-white"> Feel free to reach out to me!</p>
                 </div>
             </div>
             <div className="py-5">
