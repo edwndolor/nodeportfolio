@@ -9,9 +9,9 @@ const Intro = () => {
                 I am a software developer
             </h1>
 
-            <button className="border-2 border-secondary text-secondary px-10 py-3 rounded">
+            {/* <button className="border-2 border-secondary text-secondary px-10 py-3 rounded">
                 More...
-            </button>
+            </button> */}
         </div>
     );
 };

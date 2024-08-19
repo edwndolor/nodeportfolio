@@ -30,11 +30,14 @@ const Projects = () => {
                     ))}
                 </div>
                 <div className="flex flex-col gap-5">
-                    <h1 className="text-white">
+                    <h1 className="text-white text-xl">
                         {projects[selectedItem].desc}
                     </h1>
                     <h3 className="text-secondary text-sm">
                         Technology Used: {projects[selectedItem].tech}
+                    </h3>
+                    <h3 className="text-secondary text-sm">
+                        {projects[selectedItem].link}
                     </h3>
                 </div>
             </div>

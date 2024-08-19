@@ -30,7 +30,7 @@ const Experiences = () => {
                     ))}
                 </div>
                 <div className="flex flex-col gap-5">
-                    <h1 className="text-secondary">
+                    <h1 className="text-secondary text-3xl">
                         {exps[selectedItem].title}
                     </h1>
                     <h1 className="text-white">{exps[selectedItem].company}</h1>

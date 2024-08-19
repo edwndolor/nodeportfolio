@@ -1,5 +1,6 @@
 import SectionTitle from "../../components/SectionTitle";
-
+import avatar from "../../assets/dev.profile.jpeg";
+import Resume from "../../components/Resume";
 const About = () => {
     const skills = [
         "Javascript",
@@ -11,15 +12,20 @@ const About = () => {
     ];
     return (
         <div>
-            <SectionTitle title="A brief background ..." />
-            <div className="flex w-full items-center sm:flex-col">
+            <SectionTitle title="A brief background" />
+            <div className="flex w-full items-center sm:flex-row sm:overflow-x-scroll sm:w-full">
                 <div className="h-[70vh] w-1/2 sm:w-full">
-                    <lottie-player
+                    <img
+                        src={avatar}
+                        className="rounded-full logo object-contain"
+                        alt="Avatar"
+                    />
+                    {/* <lottie-player
                         src="https://lottie.host/0a657e86-0b74-41ce-a695-540245795ea4/8o8UlOShLu.json"
                         background="##FFFFFF"
                         speed="1"
                         autoplay
-                    ></lottie-player>
+                    ></lottie-player> */}
                 </div>
                 <div className="flex flex-col gap-5 w-1/2 sm:w-full">
                     <p className="text-white">
@@ -38,7 +44,9 @@ const About = () => {
                         This results-oriented approach distinguishes me from
                         others in the field.
                     </p>
-                    <p className="text-white"> Feel free to reach out to me!</p>
+                    <p className="text-white mt-3">
+                        <Resume />
+                    </p>
                 </div>
             </div>
             <div className="py-5">
