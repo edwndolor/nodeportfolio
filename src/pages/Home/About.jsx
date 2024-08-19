@@ -11,7 +11,7 @@ const About = () => {
     ];
     return (
         <div>
-            <SectionTitle title="About Me" />
+            <SectionTitle title="A brief background ..." />
             <div className="flex w-full items-center sm:flex-col">
                 <div className="h-[70vh] w-1/2 sm:w-full">
                     <lottie-player
@@ -24,15 +24,16 @@ const About = () => {
                 <div className="flex flex-col gap-5 w-1/2 sm:w-full">
                     <p className="text-white">
                         Hello, I'm Edwin Dolor, a software developer based in
-                        The Philippines. With 6 years of experience in web
-                        development using PHP nad Javascript.
+                        The Philippines. I have 6 years of experience in
+                        building robust and scalable web application.
                     </p>
                     <p className="text-white">
                         I believe in the importance of lifelong learning and am
                         dedicated to continually updating my web development
                         skills and knowledge to remain competitive and deliver
                         exceptional results. In my free time, I enjoy having a
-                        walk, riding my bicycle or playing DOTA with my friends.
+                        walk, riding my bicycle or playing video games with my
+                        friends.
                     </p>
                     <p className="text-white"> Feel free to reach out to me!</p>
                 </div>
