@@ -7,7 +7,7 @@ const Contact = () => {
         linkedin: "linkedin.com/in/edwindolor/",
     };
     return (
-        <div>
+        <div className="mt-2">
             <div>
                 <SectionTitle title="Connect" />
             </div>

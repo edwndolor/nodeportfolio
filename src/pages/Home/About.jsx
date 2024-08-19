@@ -11,13 +11,13 @@ const About = () => {
         "MySQL",
     ];
     return (
-        <div>
+        <div className="mt-2">
             <SectionTitle title="A brief background" />
-            <div className="flex w-full items-center sm:flex-row sm:overflow-x-scroll sm:w-full">
-                <div className="h-[70vh] w-1/2 sm:w-full">
+            <div className="flex w-full items-center sm:flex-col">
+                <div className="h-[70vh] w-1/2 sm:flex-row sm:h-auto ">
                     <img
                         src={avatar}
-                        className="rounded-full logo object-contain"
+                        className="rounded-full logo filter grayscale"
                         alt="Avatar"
                     />
                     {/* <lottie-player
