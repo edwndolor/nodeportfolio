@@ -34,7 +34,7 @@ export const projects = [
     {
         id: 5,
         title: "ToktokWallet",
-        desc: "[Backend] Toktokwallet is an e-wallet app inside of Toktok App. You can use it to pay services, bills, buy loads, and many more. You can cash-in thru online banks, credit cards and OTC. It is similar to other e-wallet app like G-cash, Coins.ph, Maya etc",
+        desc: "[Backend] Toktokwallet is an e-wallet app inside of Toktok App. You can use it to pay services, bills, buy loads, and many more. You can cash-in thru online banks, credit cards and OTC. It is similar to other e-wallet apps like G-cash, Coins.ph, Maya and other",
         tech: "GraphQL, NodeJs, MySQL",
         link: "https://wallet.toktok.ph/",
         role: "Backend",
