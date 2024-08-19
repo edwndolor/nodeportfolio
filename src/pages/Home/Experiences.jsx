@@ -6,7 +6,7 @@ const Experiences = () => {
     const [selectedItem, setSelectedItem] = useState(0);
     return (
         <div>
-            <SectionTitle title="Work Experience" />;
+            <SectionTitle title="Software Development Experience" />;
             <div className="flex py-10 gap-10 sm:flex-col">
                 <div className="flex flex-col gap-5 border-l-2 border-secondary w-1/3 sm:flex-row sm:overflow-x-scroll sm:w-full">
                     {exps.map((e, i) => (
