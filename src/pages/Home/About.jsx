@@ -24,16 +24,19 @@ const About = () => {
                 <div className="flex flex-col gap-5 w-1/2 sm:w-full">
                     <p className="text-white">
                         Hello, I'm Edwin Dolor, a software developer based in
-                        The Philippines. I have 6 years of experience in
-                        building robust and scalable web application.
+                        the Philippines. With 6 years of experience, I
+                        specialize in building robust and scalable web
+                        applications. My expertise spans various projects,
+                        including ERP systems, e-commerce platforms,
+                        microfinance solutions, and e-wallet applications."
                     </p>
                     <p className="text-white">
-                        I believe in the importance of lifelong learning and am
-                        dedicated to continually updating my web development
-                        skills and knowledge to remain competitive and deliver
-                        exceptional results. In my free time, I enjoy having a
-                        walk, riding my bicycle or playing video games with my
-                        friends.
+                        My competitive edge as a software developer is my
+                        relentless focus on delivering measurable results. I go
+                        beyond just writing code—my commitment is to drive value
+                        and achieve the objectives of every project I take on.
+                        This results-oriented approach distinguishes me from
+                        others in the field.
                     </p>
                     <p className="text-white"> Feel free to reach out to me!</p>
                 </div>
